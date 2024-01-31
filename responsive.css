@@ -1,0 +1,255 @@
+/* Add this at the end of your CSS file */
+
+/* Responsive Styles for Tablets */
+@media screen and (max-width: 768px) {
+    #nav {
+      padding: 1rem;
+    }
+  
+    #hero {
+      flex-direction: column;
+      margin-top: 6rem;
+      padding: 1rem;
+    }
+  
+    .kullu {
+      width: 100%;
+      text-align: center;
+    }
+  
+    #susimage {
+      height: 15rem;
+    }
+  
+    .south {
+      width: 100%;
+      min-height: auto;
+    }
+  
+    #temple > img {
+      height: auto;
+      width: 100%;
+    }
+  
+    .paragraph {
+      width: 100%;
+    }
+  
+    .heading {
+      top: 0;
+      left: 0;
+    }
+  
+    #motive {
+      padding: 1rem;
+    }
+  
+    #motive > p {
+      width: 100%;
+    }
+  
+    #culture {
+      padding: 2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  
+    .hawamahal,
+    .prem-madir {
+      width: 100%;
+    }
+
+
+    #Carousel{
+        height: 40vh;
+    }
+    .icons-l{
+        left:9%;
+    }
+
+    .icons-r{
+        right: 9%;
+    }
+
+
+    .indiavideo{
+        height: 60vh;
+    }
+
+    #banimg {
+        position: relative;
+        height: 26rem;
+        width: 100%;
+  }
+
+  #culture{
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  #havamahal{
+    width: 70%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+  }
+
+  .prem-madir > img{
+    width: 85%;
+  }
+
+  .prem-madir > div{
+    display: block;
+  }
+
+  .kullu {
+    width: 60%;
+    margin-bottom: 5rem;
+
+}
+
+#susimage{
+    height: 23rem;
+}
+
+.heading{
+    top: -6%;
+}
+
+.button{
+    margin-top: 5rem;
+}
+#motive > p > span{
+    width: 15vw;
+}
+
+#indiatext>h4{
+    visibility: visible;
+}
+#indiatext>p{
+    visibility: hidden;
+}
+.prem-madir{
+    margin-top: 4rem;
+ }
+}
+
+
+/* resposive design for tablet */
+
+@media screen and (max-width:580px){
+    #bannertext{
+        margin-left: 1rem;
+    }
+
+    .heading {
+        top: -9%;
+    }
+    #navleft,#navright{
+        visibility: hidden;
+      }
+
+
+      * {
+        
+        cursor:auto;
+      }
+      
+      a:hover {
+        cursor: auto;
+      }
+      
+      .baninnertext{
+        width: 60%;
+      }
+
+     
+}
+
+
+  /* Responsive Styles for Mobile Devices */
+  @media screen and (max-width: 390px) {
+    
+    #nav {
+      padding: 0.5rem;
+    }
+  
+    #hero {
+      margin-top: 4rem;
+      padding: 0.5rem;
+    }
+  
+    .kullu >p,.kullu>h5{
+      font-size: 16px;
+    }
+
+    .button{
+        font-size: 20px;
+    }
+  
+    #susimage {
+      height: 12rem;
+    }
+  
+    #temple > img {
+      height: auto;
+      width: 100%;
+    }
+  
+    .paragraph {
+      width: 100%;
+      font-size: 18px;
+    }
+
+
+    #motive > p > span{
+        height: 3.5vh;
+    }
+  
+    .heading {
+        top: -10%;
+    }
+  
+    #motive {
+      padding: 0.5rem;
+    }
+  
+    #motive > p {
+      font-size: 1.5rem;
+      width: 100%;
+    }
+  
+    #culture {
+      padding: 1rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+  
+    .hawamahal,
+    .prem-madir {
+      width: 100%;
+    }
+
+
+    .prem-madir > img{
+        width: 100%;
+    }
+
+    #banner{
+        flex-direction: column;
+    }
+
+    #banimg {
+        margin: auto;
+        height: 24rem;
+        width: 90%;
+    }
+    #bannertext {
+        width: 90%;
+    }
+
+    .inner_carouel {
+        width: 90%;
+    }
+  }
+  

@@ -1,0 +1,460 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nimbus Sans L";
+  cursor: url("./custom/mouse.png"), auto;
+}
+
+a:hover {
+  cursor: url("./custom/pointer.png"), auto;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  touch-action: auto;
+}
+
+#main {
+  width: 100%;
+}
+
+#nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 5rem;
+  font-weight: 800;
+  /* background-color: orange; */
+}
+
+#navleft {
+  gap: 20px;
+  display: flex;
+}
+
+#navleft > a {
+display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+#navright {
+display: inline-block;
+  border: 1px solid black;
+
+  border-radius: 1rem;
+}
+#navright > a {
+  color: black;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+#navright:hover {
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px rgba(109, 27, 27, 0.5);
+  }
+  100% {
+    text-shadow: 0 0 20px rgba(31, 185, 46, 0.9);
+  }
+}
+
+#centertag_a {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-decoration: none;
+}
+
+#hero {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8rem;
+  padding: 1.5rem 5rem;
+
+}
+
+.kullu {
+  width: 7rem;
+}
+
+.kullu > p {
+  font-size: 12px;
+}
+
+#susimage {
+  position: relative;
+  width: 100%;
+  height: 10rem;
+  overflow: hidden;
+}
+
+#susimage > img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.south {
+  position: relative;
+  min-height: 25rem;
+  width: 20rem;
+}
+
+#temple > img {
+  filter: brightness(90%);
+  height: 25rem;
+  width: 100%;
+}
+.paragraph {
+  width: 50%;
+  letter-spacing: -0.05vw;
+}
+
+.heading {
+  position: absolute;
+  line-height: 1;
+  top: -11%;
+  left: -5%;
+  z-index: 10;
+}
+
+.heading > h1 {
+  letter-spacing: -0.1vw;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+#circle {
+  border: 1px solid black;
+  padding: 0.3rem;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.fa{
+  animation: moveArrow 1s infinite alternate;
+}
+
+@keyframes moveArrow {
+  to {
+      transform: translateY(5px);
+  }
+}
+.button > h5 {
+  font-weight: 300;
+}
+
+
+
+#motive {
+  padding: 1.5rem 5rem;
+  margin-top: 4rem;
+}
+
+#motive > h2 {
+  color: grey;
+}
+
+#motive {
+  display: flex;
+  justify-content: space-between;
+}
+
+#motive > p {
+  font-size: 2rem;
+  width: 70%;
+  letter-spacing: -0.1vw;
+}
+#motive > p > span {
+  position: relative;
+  height: 5.5vh;
+  width: 5vw;
+  display: inline-block;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  /* margin: 0px 5px; */
+  margin-bottom: -3px;
+}
+#motive > p > span > img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  scale: 2.5;
+}
+
+.span2 > img {
+  top: 30%;
+}
+.span3 > img {
+  top: 20%;
+  left: -30%;
+}
+
+#culture {
+  padding: 3rem;
+  margin-top: 5rem;
+  padding-left: 8.5rem;
+  padding-right: 8.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.hawamahal {
+  position: relative;
+  height: 23rem;
+  width: 12rem;
+}
+#havamahal {
+  position: relative;
+  height: 18rem;
+  width: 100%;
+  /* object-fit: cover; */
+  overflow: hidden;
+}
+
+
+#havamahal > img {
+  /* position: relative; */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.prem-madir {
+  height: 30rem;
+  width: 30vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+
+.prem-madir > img {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: fill;
+}
+
+.prem-madir > div {
+  margin: 0.8rem 0;
+  width: 17rem;
+  text-align: right;
+}
+
+.prem-madir > div > p {
+  font-size: 0.9rem;
+}
+
+.hawamahal > div {
+  margin: 1rem 0;
+  width: 10rem;
+}
+
+.hawamahal > div > p {
+  font-size: 0.9rem;
+}
+
+#banner {
+  position: relative;
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#banimg {
+  position: relative;
+  height: 30rem;
+  width: 65%;
+}
+
+#banimg > img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#bannertext{
+  width: 35%;
+  display: grid;
+  place-content: center;
+  letter-spacing: -0.04 vw;
+}
+
+
+.baninnertext{
+  width: 65%;
+}
+.baninnertext>p{
+  font-size: .9rem;
+}
+
+
+#Carousel{
+  margin-top: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  /* background-color: red; */
+  
+  
+}
+
+.icons-l{
+  position: absolute;
+  z-index: 100;
+  left: 11%;
+  font-size: 2rem;
+  color: rgb(165, 163, 163);
+}
+
+.icons-r{
+  position: absolute;
+  z-index: 100;
+  right: 11%;
+  font-size: 2rem;
+  color: grey;
+}
+
+.inner_carouel{
+  position: relative;
+  border: 2px solid grey;
+height: 100%;
+width: 70%;
+display: flex;
+border-radius: 1rem;
+overflow: hidden;
+}
+
+.inner_carouel>img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit:cover;
+  transition: all 0.3s;
+}
+
+.indiavideo{
+
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indiavideo>video{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: all 0.3s;
+
+}
+
+
+#indiatext{
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera, and Firefox */
+
+}
+
+#indiatext>p{
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  letter-spacing: -.05vw;
+  border: 1px solid black;
+}
+
+#indiatext>h4{
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  letter-spacing: -.05vw;
+  border: 1px solid black;
+  position: absolute;
+  visibility: hidden;
+
+
+}
+
+
+
+
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  font-weight: 300;
+}
+
+/* Width */
+::-webkit-scrollbar {
+  width: 7px;
+  /* width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.5rem; /* color of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* color of the scrollbar handle on hover */
+}
