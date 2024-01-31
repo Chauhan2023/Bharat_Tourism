@@ -1,8 +1,13 @@
+@font-face {
+  font-family: NSL;
+  src: url(./custom/NimbusSanL-Reg.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nimbus Sans L";
+  font-family: NSL;
   cursor: url("./custom/mouse.png"), auto;
 }
 
